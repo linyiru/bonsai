@@ -1,285 +1,261 @@
-<!doctype html>
-<html>
-<head lang="en">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	
-	<title>MUNTER - Free Bootstrap 3 One Page Theme</title> 
-	<meta name="description" content="BlackTie.co - Free Handsome Bootstrap Themes" />	    
-	<meta name="keywords" content="themes, bootstrap, free, templates, bootstrap 3, freebie,">
-	<meta property="og:title" content="">
-
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="fancybox/jquery.fancybox-v=2.1.5.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="css/font-awesome.min.css" rel="stylesheet">
-	
-	<link rel="stylesheet" type="text/css" href="css/style.css">	
-	
-	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	
-	
-	<link rel="prefetch" href="images/zoom.png">
-	<script type="text/javascript">
-	!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
-	analytics.load("JRvyNKgO1Lw1mBAG8f4iCC4mctEw4fxZ");
-	analytics.page()
-	}}();
-	</script>
-		
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="盆栽, 室內盆栽, 綠美學, 室內綠化, 磁鐵盆栽, 磁吸盆栽, 室內設計, 室內植栽, 牆上盆栽" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+     <!-- Favicon Icon -->
+    <link rel="icon" href="assets/img/favicon.ico" />
+    <title>優碧綠 Urbio - 室內綠美學</title>
+    <!-- BOOTSTRAP CORE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- ION ICONS STYLES -->
+    <link href="assets/css/ionicons.css" rel="stylesheet" />
+     <!-- FONT AWESOME ICONS STYLES -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+     <!-- IE10 viewport hack  -->
+    <script src="assets/js/ie-10-view-port.js"></script>
+    <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-
 <body>
-	<div class="navbar navbar-fixed-top" data-activeslide="1">
-		<div class="container">
-		
-			<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			
-			
-			<div class="nav-collapse collapse navbar-responsive-collapse">
-				<ul class="nav row">
-					<li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="icon icon-home"></span> <span class="text">HOME</span></a></li>
-					<li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="icon icon-user"></span> <span class="text">ABOUT US</span></a></li>
-					<li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text">PORTFOLIO</span></a></li>
-					<li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="icon icon-gears"></span> <span class="text">PROCESS</span></a></li>
-					<li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-5" title="Next Section"><span class="icon icon-heart"></span> <span class="text">CLIENTS</span></a></li>
-					<li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" href="#slide-6" title="Next Section"><span class="icon icon-envelope"></span> <span class="text">CONTACT</span></a></li>
-				</ul>
-				<div class="row">
-					<div class="col-sm-2 active-menu"></div>
-				</div>
-			</div><!-- /.nav-collapse -->
-		</div><!-- /.container -->
-	</div><!-- /.navbar -->
-	
-	
-	<!-- === Arrows === -->
-	<div id="arrows">
-		<div id="arrow-up" class="disabled"></div>
-		<div id="arrow-down"></div>
-		<div id="arrow-left" class="disabled visible-lg"></div>
-		<div id="arrow-right" class="disabled visible-lg"></div>
-	</div><!-- /.arrows -->
-	
-	
-	<!-- === MAIN Background === -->
-	<div class="slide story" id="slide-1" data-slide="1">
-		<div class="container">
-			<div id="home-row-1" class="row clearfix">
-				<div class="col-12">
-					<h1 class="font-semibold">MUNTER <span class="font-thin">DESIGN</span></h1>
-					<h4 class="font-thin">We are an <span class="font-semibold">independent interactive agency</span> based in London.</h4>
-					<br>
-					<br>
-				</div><!-- /col-12 -->
-			</div><!-- /row -->
-			<div id="home-row-2" class="row clearfix">
-				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="4"><img src="images/s02.png"></div><span>PROFESSIONAL</span></div>
-				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="3"><img src="images/s01.png"></div><span>FRIENDLY</span></div>
-				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="5"><img src="images/s03.png"></div><span>SUITABLE</span></div>
-			</div><!-- /row -->
-		</div><!-- /container -->
-	</div><!-- /slide1 -->
-	
-	<!-- === Slide 2 === -->
-	<div class="slide story" id="slide-2" data-slide="2">
-		<div class="container">
-			<div class="row title-row">
-				<div class="col-12 font-thin">Contrary to popular belief, <span class="font-semibold">Lorem Ipsum</span> is not simply random text.</div>
-			</div><!-- /row -->
-			<div class="row line-row">
-				<div class="hr">&nbsp;</div>
-			</div><!-- /row -->
-			<div class="row subtitle-row">
-				<div class="col-12 font-thin">This is what <span class="font-semibold">we do best</span></div>
-			</div><!-- /row -->
-			<div class="row content-row">
-				<div class="col-12 col-lg-3 col-sm-6">
-					<p><i class="icon icon-eye-open"></i></p>
-					<h2 class="font-thin">Visual <span class="font-semibold">Identity</span></h2>
-					<h4 class="font-thin">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
-				</div><!-- /col12 -->
-				<div class="col-12 col-lg-3 col-sm-6">
-					<p><i class="icon icon-laptop"></i></p>
-					<h2 class="font-thin">Web <span class="font-semibold">Design</span></h2>
-					<h4 class="font-thin">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
-				</div><!-- /col12 -->
-				<div class="col-12 col-lg-3 col-sm-6">
-					<p><i class="icon icon-tablet"></i></p>
-					<h2 class="font-thin">Mobile <span class="font-semibold">Apps</span></h2>
-					<h4 class="font-thin">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
-				</div><!-- /col12 -->
-				<div class="col-12 col-lg-3 col-sm-6">
-					<p><i class="icon icon-pencil"></i></p>
-					<h2 class="font-semibold">Development</h2>
-					<h4 class="font-thin">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
-				</div><!-- /col12 -->
-			</div><!-- /row -->
-		</div><!-- /container -->
-	</div><!-- /slide2 -->
-	
-	<!-- === SLide 3 - Portfolio -->
-	<div class="slide story" id="slide-3" data-slide="3">
-		<div class="row">
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p01-large.jpg"><img class="thumb" src="images/portfolio/p01-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p02-large.jpg"><img class="thumb" src="images/portfolio/p02-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p09-large.jpg"><img class="thumb" src="images/portfolio/p09-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p010-large.jpg"><img class="thumb" src="images/portfolio/p10-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p05-large.jpg"><img class="thumb" src="images/portfolio/p05-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p06-large.jpg"><img class="thumb" src="images/portfolio/p06-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p07-large.jpg"><img class="thumb" src="images/portfolio/p07-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p08-large.jpg"><img class="thumb" src="images/portfolio/p08-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p03-large.jpg"><img class="thumb" src="images/portfolio/p03-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p04-large.jpg"><img class="thumb" src="images/portfolio/p04-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p11-large.jpg"><img class="thumb" src="images/portfolio/p11-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p12-large.jpg"><img class="thumb" src="images/portfolio/p12-small.jpg" alt=""></a></div>
-		</div><!-- /row -->
-	</div><!-- /slide3 -->
-	
-	<!-- === Slide 4 - Process === -->
-	<div class="slide story" id="slide-4" data-slide="4">
-		<div class="container">
-			<div class="row title-row">
-				<div class="col-12 font-thin">See us <span class="font-semibold">at work</span></div>
-			</div><!-- /row -->
-			<div class="row line-row">
-				<div class="hr">&nbsp;</div>
-			</div><!-- /row -->
-			<div class="row subtitle-row">
-				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-				<div class="col-12 col-sm-10 font-light">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</div>
-				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-			</div><!-- /row -->
-			<div class="row content-row">
-				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-				<div class="col-12 col-sm-2">
-					<p><i class="icon icon-bolt"></i></p>
-					<h2 class="font-thin">Listening to<br><span class="font-semibold" >your needs</span></h2>
-					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
-				</div><!-- /col12 -->
-				<div class="col-12 col-sm-2">
-					<p><i class="icon icon-cog"></i></p>
-					<h2 class="font-thin">Project<br><span class="font-semibold">discovery</span></h2>
-					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
-				</div><!-- /col12 -->
-				<div class="col-12 col-sm-2">
-					<p><i class="icon icon-cloud"></i></p>
-					<h2 class="font-thin">Storming<br><span class="font-semibold">our brains</span></h2>
-					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
-				</div><!-- /col12 -->
-				<div class="col-12 col-sm-2">
-					<p><i class="icon icon-map-marker"></i></p>
-					<h2 class="font-thin">Getting<br><span class="font-semibold">there</span></h2>
-					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
-				</div><!-- /col12 -->
-				<div class="col-12 col-sm-2">
-					<p><i class="icon icon-gift"></i></p>
-					<h2 class="font-thin">Delivering<br><span class="font-semibold">the product</span></h2>
-					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
-				</div><!-- /col12 -->
-				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-			</div><!-- /row -->
-		</div><!-- /container -->
-	</div><!-- /slide4 -->
-	
-	<!-- === Slide 5 === -->
-	<div class="slide story" id="slide-5" data-slide="5">
-		<div class="container">
-			<div class="row title-row">
-				<div class="col-12 font-thin"><span class="font-semibold">Clients</span> we’ve worked with</div>
-			</div><!-- /row -->
-			<div class="row line-row">
-				<div class="hr">&nbsp;</div>
-			</div><!-- /row -->
-			<div class="row subtitle-row">
-				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-				<div class="col-12 col-sm-10 font-light">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. <br/><br/> The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero.</div>
-				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-			</div><!-- /row -->
-			<div class="row content-row">
-				<div class="col-1 col-sm-1 hidden-sm">&nbsp;</div>
-				<div class="col-12 col-sm-2"><img src="images/client01.png" alt=""></div>
-				<div class="col-12 col-sm-2"><img src="images/client02.png" alt=""></div>
-				<div class="col-12 col-sm-2"><img src="images/client03.png" alt=""></div>
-				<div class="col-12 col-sm-2"><img src="images/client04.png" alt=""></div>
-				<div class="col-12 col-sm-2"><img src="images/client05.png" alt=""></div>
-				<div class="col-1 col-sm-1 hidden-sm">&nbsp;</div>
-			</div><!-- /row -->
-		</div><!-- /container -->
-	</div><!-- /slide5 -->
-	
-	<!-- === Slide 6 / Contact === -->
-	<div class="slide story" id="slide-6" data-slide="6">
-		<div class="container">
-			<div class="row title-row">
-				<div class="col-12 font-light">Leave us a <span class="font-semibold">message</span></div>
-			</div><!-- /row -->
-			<div class="row line-row">
-				<div class="hr">&nbsp;</div>
-			</div><!-- /row -->
-			<div class="row subtitle-row">
-				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-				<div class="col-12 col-sm-10 font-light">You can find us literally anywhere, just push a button and we’re there</div>
-				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-			</div><!-- /row -->
-			<div id="contact-row-4" class="row">
-				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-				<div class="col-12 col-sm-2 with-hover-text">
-					<p><a target="_blank" href="#"><i class="icon icon-phone"></i></a></p>
-					<span class="hover-text font-light ">+44 4839-4343</span></a>
-				</div><!-- /col12 -->
-				<div class="col-12 col-sm-2 with-hover-text">
-					<p><a target="_blank" href="#"><i class="icon icon-envelope"></i></a></p>
-					<span class="hover-text font-light ">munter@blacktie.co</span></a>
-				</div><!-- /col12 -->
-				<div class="col-12 col-sm-2 with-hover-text">
-					<p><a target="_blank" href="#"><i class="icon icon-home"></i></a></p>
-					<span class="hover-text font-light ">London, England<br>zip code 98443</span></a>
-				</div><!-- /col12 -->
-				<div class="col-12 col-sm-2 with-hover-text">
-					<p><a target="_blank" href="#"><i class="icon icon-facebook"></i></a></p>
-					<span class="hover-text font-light ">facebook/blacktie_co</span></a>
-				</div><!-- /col12 -->
-				<div class="col-12 col-sm-2 with-hover-text">
-					<p><a target="_blank" href="#"><i class="icon icon-twitter"></i></a></p>
-					<span class="hover-text font-light ">@BlackTie_co</span></a>
-				</div><!-- /col12 -->
-				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-			</div><!-- /row -->
-		</div><!-- /container -->
-	</div><!-- /Slide 6 -->
-	
+    <!-- HEADER SECTION START-->
+   <header id="header">
+        <div class="container" >
+                <div class="row"  >
+                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 logo-wrapper">
+                         <h3 style="margin:0px">優碧綠 Urbio</h3>
+                     </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-right" >
+                          <div class="menu-links scroll-me">
+                              <a href="#header"> <i class="ion-ios-home-outline"></i> </a>
+                          <a href="#about"> <i class="ion-ios-camera-outline"></i> </a>
+                          <a href="#clients"> <i class="ion-ios-grid-view-outline"></i> </a>
+                          <a href="#contact"> <i class="ion-ios-chatboxes-outline"></i> </a>
+                          
+
+                          </div>                    
+                </div>
+                </div>
+              
+                
+            </div>
+   </header>
+    <!-- HEADER SECTION END-->
+    <!--HOME SECTION START  -->
+    <div id="home">
+        <div class="overlay">
+            <div class="container">
+                <div class="row scroll-me" >
+                      <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 text-center">
+                          <h1 >優碧綠 Urbio</h1>
+                    <h4 style="padding:20px">
+                        讓空間呼吸
+                    </h4>
+                    <a href="#about" class="btn btn-custom btn-two" >快來了解</a>
+                    <a href="#email-subscribe" class="btn btn-custom btn-two" >馬上團購</a>
+                </div>
+                </div>
+              
+                
+            </div>
+        </div>
+    </div>
+    <!--HOME SECTION END  -->
+     <!-- ABOUT SECTION START-->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <h2 class="head-line">綠 x 室內設計</h2>
+                    <p >
+                       綠色，是人眼感到舒適的顏色，也是代表大自然的顏色。優碧綠 Urbio 將植栽融入室內設計，針對家居的牆壁空間進行規劃，設計出能在牆上自由挪動的植栽。即便家中沒有擺放空間，但只要有一小片牆，優碧綠就能把大自然的綠色帶進室內，帶進你的生活裡。讓你的生活充滿綠色植物，讓你的空間頓時綠意盎然。<br><br>只要有一片牆，優碧綠就能綠化你的心樑。
+                    </p>
+                    <div class="row text-center">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="row pad-bottom">
+                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                             <div class="icon-wrapper">
+                                  <i class="ion-home"></i>
+                             </div>                   
+                    <h4>居家綠化</h4>
+                                      讓綠色在牆壁上生長，讓植物與人類在空間中呼吸
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="icon-wrapper">
+                    <i class="ion-monitor"></i>
+                        </div>
+                    <h4>適度放鬆</h4>
+                                      長時間盯著螢幕對眼睛是負擔。每小時休息一下抬頭看看綠色，能減輕疲勞
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="icon-wrapper">
+                    <i class="ion-clipboard"></i>
+                        </div>
+                    <h4>多功能用途</h4>
+                                      Urbio 不只可以放盆栽，還可以作為移動式壁櫥，擺放各種日常生活用品喔
+                </div>
+                        </div>
+                        
+            </div>
+                
+        </div>
+                    
+                </div>
+                
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center" >
+                    <img src="assets/img/intro.png" class="img-side" style="width:80%; margin:30px">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT SECTION END-->
+     <!-- GALLERY SECTION START-->
+    <section id="gallery">
+        <div class="overlay">       
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-6 col-xs-12  client-cover" style="width:100%">
+                     <div id="carousel-example" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        
+                        <div class="item active">
+                            <div class="testimonial-section-name">
+                                <img src="assets/img/intro1.png" alt=""/>
+                            </div>
+                            <div class="testimonial-section text-left">
+                                <h3><b>居家佈置的好夥伴</b></h3>
+                                <h4 style="line-height:1.75">可以配合室內空間規劃，在任意牆面上進行擺設，有效利用空間美化生活環境
+                                    舒適的環境可以減輕身體疲勞舒緩沉重的壓力，以及提高工作效率</h4>
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                            <div class="testimonial-section-name">
+                            <img src="assets/img/intro2.png" alt=""/>
+                            </div>
+                            <div class="testimonial-section">
+                             Pellentesque posuere malesuada venenatis. 
+                                Donec laoreet dapibus nulla,
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                            <div class="testimonial-section-name">
+                            <img src="assets/img/client3.jpg" alt=""/>
+                            </div>  
+                            <div class="testimonial-section">
+                             Pellentesque posuere malesuada venenatis. 
+                                Donec laoreet dapibus nulla,
+                                 vitae feugiat metus aliquet sed.
+                            </div>
+                        </div>
+                        
+                         <!--INDICATORS-->
+                    <ol class="carousel-indicators carousel-indicators-set">
+                        <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example" data-slide-to="1"></li>
+                        <li data-target="#carousel-example" data-slide-to="2"></li>
+                    </ol>
+
+                    </div>
+                   
+                </div>
+                </div>
+            </div>
+           
+        </div>
+             </div>
+    </section>
+     <!-- GALLERY SECTION END-->
+    <!-- FEATURES SECTION START-->
+    <section id="features">
+        <div class="container">
+            
+            <div class="row text-center">
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                     <div class="icon-wrapper">
+
+                     
+                     <i class="ion-chatboxes"></i>
+                          </div>
+                    <h4>Stable relaese  </h4>
+                                      Consectetur adipiscing elit felis dolor .
+                    
+                        
+            </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 scroll-me">
+                       <h2 class="head-line">Great Resource Found</h2>
+                    <p>
+                        Integer vehicula efficitur dictum. Integer pharetra venenatis enim non porta.
+
+                    </p>
+                     <a href="#header" class="btn btn-custom btn-three" >Nothing To Hide Here</a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                     <div class="icon-wrapper">
+                    <i class="ion-email-unread"></i>
+                         </div>
+                    <h4>Stable relaese  </h4>
+                                      Consectetur adipiscing elit felis dolor .
+                        
+            </div>
+                
+        </div>
+</div>
+
+    </section>
+    <!-- FEATURES SECTION END-->     
+     <!-- SUBSCRIBE SECTION START-->
+     <section id="email-subscribe">
+         <div class="container">
+<div class="row text-center">
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
+       <form action="subscribe.php" method="post" id="postcontent"> 
+	    				<input type="email" name="email" class="form-control" placeholder="留下你的 Email......" required />
+           <button type="submit" class="btn btn-subscribe"  >送出!</button>
+					</form>
+    </div>
+</div>
+         </div>
+     </section>
+     <!-- SUBSCRIBE SECTION END-->
+    
+    <!-- FOOTER SECTION START-->
+    <footer>
+        <div class="container">
+<div class="row text-center">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+                             2015 Urbio™
+                         </div>
+    </div>
+            </div>
+    </footer>
+    <!-- FOOTER SECTION END-->
+
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  SCRIPTS -->
+    <script src="assets/js/jquery-1.11.1.js"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- SCROLLING SCRIPTS PLUGIN  -->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <!-- CUSTOM SCRIPTS   -->
+    <script src="assets/js/custom.js"></script>
 </body>
-
-	<!-- SCRIPTS -->
-	<script src="js/html5shiv.js"></script>
-	<script src="js/jquery-1.10.2.min.js"></script>
-	<script src="js/jquery-migrate-1.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="fancybox/jquery.fancybox.pack-v=2.1.5.js"></script>
-	<script src="js/script.js"></script>
-	
-	<!-- fancybox init -->
-	<script>
-	$(document).ready(function(e) {
-		var lis = $('.nav > li');
-		menu_focus( lis[0], 1 );
-		
-		$(".fancybox").fancybox({
-			padding: 10,
-			helpers: {
-				overlay: {
-					locked: false
-				}
-			}
-		});
-	
-	});
-	</script>
-
 </html>
